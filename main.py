@@ -769,7 +769,7 @@ while True:
                 and (player_message[0] == 0)
                 and (level_time > 1500)
             ):
-                player_message = [320, "J'ai entendu dire que la sortie était en hauteur...", ""]
+                player_message = [320, "J'ai entendu dire que la sortie etait en hauteur...", ""]
                 events["lv1note"] = 1
         if (events["lv1note"] == 1) and player_mana:
             if (
